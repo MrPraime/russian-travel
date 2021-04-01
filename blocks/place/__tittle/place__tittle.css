@@ -1,0 +1,33 @@
+.place__tittle {
+	grid-column: 1;
+	width: 460px;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 76px;
+	color: #ffffff;
+	margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.place__tittle {
+		width: 340px;
+		min-height: 92px;
+		font-weight: 900;
+		font-size: 42px;
+		line-height: 46px;
+		display: flex;
+		align-items: flex-end;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.place__tittle {
+		font-size: 32px;
+		line-height: 35px;
+		grid-column: 1;
+		grid-row: 1;
+		width: 288px;
+		min-height: 35px;
+		padding-left: 16px;
+	}
+}

@@ -1,0 +1,27 @@
+.place__paragrap {
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 163%;
+	color: #FFFFFF;
+}
+
+.place__paragrap:last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.place__paragrap {
+		font-size: 16px;
+		max-width: 352px;
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.place__paragrap {
+		font-size: 16px;
+		line-height: 163%;
+	}
+}

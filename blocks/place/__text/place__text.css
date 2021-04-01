@@ -12,7 +12,6 @@
 
 @media screen and (max-width: 320px) {
 	.place__text {
-		min-height: auto;
 		grid-column: 1;
 		grid-row: 4;
 		padding: 0 16px;

@@ -5,11 +5,3 @@
 	letter-spacing: 0.2em;
 	color: #AAAAAA;
 }
-
-@media screen and (max-width: 320px) {
-	.place__url-heading {
-		font-size: 12px;
-		line-height: 12px;
-		letter-spacing: 0.2em;
-	}
-}

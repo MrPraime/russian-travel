@@ -18,10 +18,3 @@
 		width: 90%;
 	}
 }
-
-@media screen and (max-width: 320px) {
-	.place__paragrap {
-		font-size: 16px;
-		line-height: 163%;
-	}
-}

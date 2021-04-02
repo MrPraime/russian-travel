@@ -1,8 +1,9 @@
-.cover {
+.cover__image {
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	max-width: 1184px;
 	min-height: 740px;
 	margin: 0 auto;
@@ -14,8 +15,8 @@
 	z-index: 1;
 }
 
-.cover:after {
-	content: "#";
+.cover__image:after {
+	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -24,31 +25,30 @@
 	background: #2A2C2F;
 	opacity: 0.3;
 	z-index: -1;
+	transition: opacity 0.5s;	
 }
 
-.cover:hover::after {
+.cover__image:hover::after {
 	opacity: 0.8;
-	transition: opacity 0.5s;
 }
 
 @media screen and (max-width: 1024px) {
-	.cover {
+	.cover__image {
 		width: 100%;
 	}
 }
 
 @media screen and (max-width: 768px) {
-	.cover {
+	.cover__image {
 		max-width: 768px;
-		width: 100%;
 		min-height: 480px;
 	}
 }
 
 @media screen and (max-width: 320px) {
-	.cover {
-		width: 100%;
+	.cover__image {
 		min-height: 200px;
+		max-width: 320px;
 		margin-bottom: 64px;
 	}
 }

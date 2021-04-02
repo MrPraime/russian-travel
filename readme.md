@@ -15,3 +15,7 @@
 3. Nested файловая структура
 4. Адаптивная верстка
 ```
+
+## GitHub pages
+
+https://mrpraime.github.io/russian-travel/

@@ -1,7 +1,7 @@
 .place {
 	display: grid;
 	margin: 0 auto;
-	width: 90%;
+	width: 100%;
 	max-width: 984px;
 	padding-bottom: 80px;
 	grid-template-columns: 460px 1fr;
@@ -21,7 +21,7 @@
 @media screen and (max-width: 768px) {
 	.place {
 		width: 100%;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(2, minmax(min-content, 1fr));
 		grid-template-rows: repeat(2, min-content);
 		grid-gap: 48px 28px;
 	}

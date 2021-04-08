@@ -3,7 +3,7 @@
 	width: 100%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
 	.place__image {
 		min-height: 320px;
 		grid-column: 1;

@@ -4,7 +4,7 @@
 	align-self: flex-end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
 	.place__website {
 		width: 288px;
 		min-height: 46px;
